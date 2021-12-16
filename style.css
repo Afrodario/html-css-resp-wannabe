@@ -75,16 +75,79 @@ img {
 /* Regole Media Query */
 @media screen and (max-width: 419px) {
 
+  /* COMMON */
+  body {
+    background-color: #f2f2cd;
+    margin: 0;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  h1 {
+    margin: 5px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .row {
+    margin-top: 0;
+  }
+
+  /* Blocco lezioni */
+
   #lezioni .row>.left,
   #lezioni .row>.right {
-      width: 100%;
-      float: none;
-      background-color: #f2f2cd;
+    width: 100%;
+    float: none;
+    background-color: #f2f2cd;
   }
 
   #lezioni .row {
-      background-color: #f2f2cd;
+    background-color: #f2f2cd;
   }
 
+  #lezioni.container {
+    background-color: #f2f2cd;
+  }
+
+  /* Blocco steps */
+
+  #steps .row {
+    background-color: #f9f9f9;
+  }
+
+  #steps .container {
+    background-color: #f9f9f9;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  /* Blocco why */
+
+  #why .row {
+    background-color: #f2f2cd;
+  }
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 20px
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 40px;
+  }
 
 }
