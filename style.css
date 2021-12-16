@@ -71,3 +71,20 @@ img {
 .clear {
   clear: both;
 }
+
+/* Regole Media Query */
+@media screen and (max-width: 419px) {
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+      width: 100%;
+      float: none;
+      background-color: #f2f2cd;
+  }
+
+  #lezioni .row {
+      background-color: #f2f2cd;
+  }
+
+
+}
